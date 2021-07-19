@@ -1,0 +1,25 @@
+{
+  "name": "natorius",
+  "version": "1.0.0",
+  "description": "WebSite for practising",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanjar-Kodirov/Advansed-css-Natorius-Project.git"
+  },
+  "author": "Sanjar Kodirov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanjar-Kodirov/Advansed-css-Natorius-Project/issues"
+  },
+  "homepage": "https://github.com/Sanjar-Kodirov/Advansed-css-Natorius-Project#readme",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
