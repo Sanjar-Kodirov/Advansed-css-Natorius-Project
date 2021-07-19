@@ -4,7 +4,7 @@
   "description": "WebSite for practising",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/Sanjar-Kodirov/Advansed-css-Natorius-Project#readme",
   "dependencies": {
-    "aos": "^3.0.0-beta.6"
+    "-": "0.0.1",
+    "aos": "^3.0.0-beta.6",
+    "g": "^2.0.1",
+    "live-server": "^1.2.1"
   },
   "devDependencies": {
     "node-sass": "^6.0.1"
